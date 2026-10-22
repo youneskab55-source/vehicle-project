@@ -1,0 +1,11 @@
+{
+  "name": "vehicle-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/vehicle.js",
+    "dev": "tsc && node dist/vehicle.js"
+  },
+  "devDependencies": { "typescript": "^5.5.0" }
+}
